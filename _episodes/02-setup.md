@@ -18,7 +18,7 @@ For the workshop we use Ubuntu Linux as the main Operating System. We have creat
 
 ## Installing the VMware image
 
-The VMWare workstation 16 player from VMWare runs the virtual machine. It is available through the WUR Software center and is also [freely available](https://www.vmware.com/nl/products/workstation-player.html). 
+The VMWare workstation 16 player from VMWare runs the virtual machine. It is available through the WUR Software center and is also [freely available](https://www.techspot.com/downloads/1969-vmware-player.html). 
 
 The ubuntu image can be downloaded from dropbox. Please, download the zip-file and unzip it to a local hard drive. A network location usually does not work, so it is better to store it locally.
 
