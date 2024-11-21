@@ -155,16 +155,16 @@ Creating a de novo assembly is one of the most compute intensive tasks in bioinf
 > > ~~~
 > > {{site.vm_prompt}}mkdir ~/data/results/hifiasm_hifi
 > > {{site.vm_prompt}}cd ~/data/results/hifiasm_hifi
-> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/hifi_reads.fastq > hifiasm_hifi.log
+> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/hifi_reads.fastq 2> hifiasm_hifi.log
 > > {{site.vm_prompt}}mkdir ~/data/results/hifiasm_hifi_sub
 > > {{site.vm_prompt}}cd ~/data/results/hifiasm_hifi_sub
-> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/hifi_sub.reads.fastq > hifiasm_hifi_sub.log
+> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/hifi_sub.reads.fastq 2> hifiasm_hifi_sub.log
 > > {{site.vm_prompt}}mkdir ~/data/results/hifiasm_ont
 > > {{site.vm_prompt}}cd ~/data/results/hifiasm_ont
-> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/ont_reads.fastq > hifiasm_ont.log
+> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/ont_reads.fastq 2> hifiasm_ont.log
 > > {{site.vm_prompt}}mkdir ~/data/results/hifiasm_ont_sub
 > > {{site.vm_prompt}}cd ~/data/results/hifiasm_ont_sub
-> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/ont_sub.reads.fastq > hifiasm_ont_sub.log
+> > {{site.vm_prompt}}~/tools/hifiasm -f0 -t 6 ~/data/reads/ont_sub.reads.fastq 2> hifiasm_ont_sub.log
 > > ~~~
 > > {: .bash}
 > {: .solution}
